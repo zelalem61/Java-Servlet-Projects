@@ -1,0 +1,58 @@
+@charset "UTF-8";
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	min-height: 100vh;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	gap: 50px;
+}
+
+form {
+	display: flex;
+	flex-direction: column;
+	gap: 10px;
+	justify-content: center;
+	align-items: center;
+}
+form > div {
+	display: flex;
+	flex-direction: column;
+	
+}
+
+input, button {
+	all: unset;
+	border: 1px solid black;
+	padding: 10px 20px;
+	border-radius: 10px;
+	cursor: pointer;
+}
+button:hover{
+	background-color: black;
+	color: white;
+	transition: all 250ms ease-in;
+}
+ a:hover{
+	background-color: white;
+	color: black;
+	transition: all 250ms ease-in;
+	border: 1px soild black;
+ }
+
+a {
+	all: unset;
+	padding: 10px;
+	background-color: black;
+	color: white;
+	border-radius: 10px;
+	cursor: pointer;
+	border: 1px soild black;
+}
